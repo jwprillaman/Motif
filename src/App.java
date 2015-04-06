@@ -43,8 +43,11 @@ public class App extends Configured implements Tool{
 
         job.setJarByClass(App.class);
 
+        //job.submit();
+        //return 0;
+        //job.waitForCompletion(true);
         job.submit();
-        return 0;
+        return(0);
     }
 
 }
