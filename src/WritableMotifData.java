@@ -7,6 +7,8 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.io.WritableComparable;
 
+//This was part of original requiremenst please ignore for project submission
+
 
 public class WritableMotifData implements WritableComparable<WritableMotifData>{
 	private IntWritable distance, index;

@@ -26,7 +26,7 @@ public class App extends Configured implements Tool{
             System.exit(-1);
         }
 
-
+        //Set all initializations
         
         Job job = Job.getInstance(new Configuration());
         job.setOutputKeyClass(Text.class);
@@ -43,9 +43,6 @@ public class App extends Configured implements Tool{
 
         job.setJarByClass(App.class);
 
-        //job.submit();
-        //return 0;
-        //job.waitForCompletion(true);
         job.submit();
         return(0);
     }

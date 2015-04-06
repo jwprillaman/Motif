@@ -18,9 +18,16 @@ hadoop -jar Motif.jar <DNA_Input> <OutPut>
 
 ```
 
+####Components
+
+The Application jar: Motif/Motif.jar
+Test Data: Mofif/testData.txt
+Small input test data: Motif/AltTestData.txt
+Output from my test: output.txt
+
 #### Example
 
 ```
-hadoop -jar ~/Motif/Motif.jar ~/Motif/testData.txt ~/Motif/Output
+hadoop jar ~/Motif/Motif.jar ~/Motif/testData.txt ~/Motif/Output
 
 ```
