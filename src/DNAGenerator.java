@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -8,6 +7,8 @@ public class DNAGenerator {
 	public char[] available = {'a','c','g','t'}; //All available characters for sequence
 	public List<String> allDna = new LinkedList<String>();
 	
+	// generates every combination of available characters for string of length SubLen
+	//Stores each string in allDna List
 	public void generate(int SubLen){
 		int carry; //Indicates
 		int[] indices = new int[SubLen]; //array of matching index to available chars
